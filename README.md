@@ -9,7 +9,7 @@ AutoPull utilize the [WebHook API](https://developer.github.com/webhooks/) of Gi
 
 1. go to https://github.com/{your_github_username}/{repository_name}/settings/hooks/new set Payload URL, Content type, Secret(for security) and the events you interested in(as Push event in this case).
 2. configure the config file under the AutoPull directory:
-   + url: the notify service provided (I use `ServerChan` in this project. For more derail, check this [documentation](http://sc.ftqq.com/2.version)) 
+   + url: the notify service provided (I use `ServerChan` in this project. For more detail, check this [documentation](http://sc.ftqq.com/2.version)) 
    + port: set the port AutoPull listen
    + path: this object is a dictionary, and the key is the repository name,the value is the path in your deploy server.
    + secret: the secret token you set in first step

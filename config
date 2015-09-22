@@ -1,0 +1,6 @@
+{
+  "url": "server酱推送地址",
+  "port": 6000,
+  "path": {"WebHookTest": "~/WebHookTest"},
+  "secret": "********************"
+}

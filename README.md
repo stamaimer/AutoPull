@@ -18,4 +18,4 @@ AutoPull utilize the [WebHook API](https://developer.github.com/webhooks/) of Gi
 I run this monitor program on my deploy server listen to port 6000. I use the subdomain autopull.example.com as the payload url and use the VirtualHost function in Apache redirect the request GitHub sent to AutoPull.
 
 ### Update
-In some cases, We should pull from a private repository. To authenticate that your have permission to pull from that private repository, We should input our username and password manully. To solve this problem, We can clone and pull repository use `ssh` protocol. The detail tutorial is [here](http://www.keybits.net/2013/10/automatically-use-correct-ssh-key-for-remote-git-repo/) 
+In some cases, We should pull from a private repository. To authenticate that your have permission to pull from that private repository, We should input our username and password manully. To solve this problem, We can clone and pull repository use `ssh` protocol. The detail tutorial is [here](http://www.keybits.net/2013/10/automatically-use-correct-ssh-key-for-remote-git-repo/). 
